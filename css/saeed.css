@@ -1,0 +1,334 @@
+body {
+    background-color: #F6F6F6;
+    background-image: url("../images/bg_fabric.png");
+}
+
+p {
+    margin: 0px 0px 10px;
+}
+
+.ltr{
+	direction:ltr;
+}
+
+#header{
+    background: #fff no-repeat;
+    height: 118px;
+    border: 0px solid #000;
+}
+
+.logo{
+    height: 54px;
+    width: 30%;
+    float: right;
+    margin-top: 37px;
+    border: 0px solid #aaa;
+}
+
+.inner-header{
+    max-width: 1180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid #aaa;
+}
+
+.nav {
+  padding-left: 0;  
+  margin-left: 7%;
+  list-style:none;
+  width: 60%;
+  height: 45%;
+  border: 0px solid #aaa;
+  text-align: right;
+  text-decoration:none;
+}
+.nav li {
+  display: inline-block;
+  float: right;
+  padding-right: 15px;
+  padding-top: 30px;
+  text-decoration:none;
+}
+.nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  text-decoration:none;
+}
+.nav li a:hover,
+.nav li a:focus {
+  color: #669900;
+  text-shadow: 2px 2px 4px #f00;
+}
+.nav > li.disabled > a {
+  color: #999;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+
+.container {
+    max-width: 1190px;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid #aaa;  
+}
+
+.container-inner{
+  padding: 10px;
+  margin: 25px 65px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  height: 530px;
+}
+
+#home-page-top{
+	 background-image: url("../images/homepage4.jpg");
+	 height: 500px;
+     width: 1360px;
+     margin-left: -90px;
+     padding-top: 115px;
+}
+
+.home-page-top-right{
+    width:430px;
+    margin-right:8%;
+    margin-left:auto;
+    float:right;
+    text-align: center;
+    background-clip: padding-box;
+    background-color: #690;
+    border: 1px solid #690;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    height: 221px;
+    padding: 30px 40px;
+    opacity: 0.9; 
+    display: inline;
+    
+}
+
+.stat-unit{
+    width:25%;
+    height:40%;
+    margin-left:16%;
+    margin-right:auto;
+    float:left;
+    background-clip: padding-box;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 6px 0px 0px 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    height: 221px;
+    margin-right: -36px;
+    margin-top: 25px;
+    padding: 30px 40px;
+}
+
+#how-it-works{
+    max-width: 1190px;
+    height: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid #aaa;  
+}
+
+.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;  
+    margin: 2%;
+    float: right;
+    display:inline;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+}
+
+.col-md-8 {
+    width: 66.6667%;
+    height: 90%;
+    float: right;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    direction: rtl;
+    display: inline;
+}
+
+.col-md-8-2 {
+    width: 31%;
+    height: 90%;
+    float: left;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    direction: rtl;
+    display: inline;
+}
+
+.col-md-3 {
+    width: 210px;
+    height: 260px;
+    float: right;
+    min-height: 1px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;   
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    
+}
+
+.col-md-3-footer {
+    width: 210px;
+    height: 260px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 55px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;   
+    border: 1px solid #444;
+    border-radius: 5px;
+    
+}
+
+.panel1 {
+    margin: 10px;
+    width: 90%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    display: inline;
+}
+
+.panel2 {
+    margin: 10px;
+    width: 90%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    display: inline;
+}
+
+.container-empty {
+    margin: 50px 0px 30px;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.otf?#');
+         url('../fonts/Yekan.ttf') format('truetype');
+}
+
+.Yekan {
+    direction: rtl;
+	font-family: Yekan, Arial, Helvetica, sans-serif;
+}
+    
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out 0s;
+
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+}
+
+.stats {
+    background-color: #333;
+    height: 50px;
+}
+
+.footer {
+    background-color: #444;
+    height: 380px;
+}
+
+.subfoot {
+    margin: 40px 0px 20px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.glyphicon-tower:before {
+    content: "";
+}
+
+.glyphicon-book:before {
+    content: "";
+}
+
+.glyphicon-file:before {
+    content: "";
+}
+
+.glyphicon-pencil:before {
+    content: "✏";
+}
+
+.glyphicon-phone-alt:before {
+    content: "";
+}
+
+/* .btn-default {
+    color: #333;
+    background-color: #FFF;
+    border-color: #CCC;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+*/

@@ -1,0 +1,132 @@
+body {
+    background-color: #F6F6F6;
+    background-image: url("../images/bg_fabric.png");
+}
+
+p {
+    margin: 0px 0px 10px;
+}
+
+#header{
+    background: #fff no-repeat;
+    height: 118px;
+    border: 0px solid #000;
+}
+
+.logo{
+    height: 54px;
+    width: 30%;
+    float: right;
+    margin-top: 37px;
+    border: 0px solid #aaa;
+}
+
+.inner-header{
+    max-width: 1180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid #aaa;
+}
+
+#header {
+    background: none no-repeat scroll 0% 0% #FFF;
+    border-bottom: 1px solid #DDD;
+}
+
+#home-page-top{
+	background-image: url("../images/homepage4.jpg");
+    height: 500px;
+    padding-top: 115px;
+}
+
+.home-page-top-right{
+    background-clip: padding-box;
+    background-color: #690;
+    border: 1px solid #690;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    height: 221px;
+    padding: 30px 40px;
+    opacity: 0.9;
+}
+
+.stat-unit{
+    background-clip: padding-box;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 6px 0px 0px 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    height: 221px;
+    margin-right: -36px;
+    margin-top: 25px;
+    padding: 30px 40px;
+}
+
+#how-it-works{
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 0px solid #aaa;
+}
+
+.panel1 {
+    margin: 10px;
+    width: 90%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    display: inline;
+}
+
+.panel2 {
+    margin: 10px;
+    width: 90%;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    display: inline;
+}
+
+.stats {
+    background-color: #333;
+    height: 50px;
+}
+
+.footer {
+    background-color: #444;
+}
+
+.footer-nav {
+    margin-top: 35px;
+}
+
+.subfoot {
+    margin: 40px 0px 20px;
+}
+
+.container-inner {
+    padding: 10px;
+    margin: 25px 0px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+}
+
+.e{
+    border-bottom: 1px solid #EEE;
+}
+
+.container-empty {
+    margin: 50px 0px 30px;
+    padding: 10px;
+}

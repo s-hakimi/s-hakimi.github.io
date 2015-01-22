@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>
+
+</title>
+        <script type="text/javascript" language="javascript">
+            function PopupCenter(pageURL, title, w, h) {
+                try {
+                    var left = (screen.width / 2) - (w / 2);
+                    var top = (screen.height / 2) - (h / 2) - 50;
+                    var targetWin = window.open(pageURL, title, 'toolbar=no, location=yes, directories=no, status=yes, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+                }
+                catch (e) {
+                    alert(e.description);
+                }
+            }
+        </script>
+<script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+<body style="margin: 0; padding: 0; border: 0">
+    <form name="form1" method="post" action="symbol.aspx" id="form1">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA2NjQ1ODMwNw9kFgICAw9kFgICAQ8WAh4Hb25jbGljawWgAlBvcHVwQ2VudGVyKCdMaWNlbnNlLmFzcHg/cmVxdWVzdD0wODgwNzExMDUxMDcxMDIwODMxMTYwNjkxMDAxMDAxMTMwOTAxMjAwNjcwNzAxMjAwNzQwODMxMDMwNjcwODcxMDUxMDAwNTMxMDQwNzgxMDMwNjcxMTkwNjUwNzUwNTQxMDIwNzQxMTUxMTEwODkxMDQxMjAwNTUwNzcwODUwNzkwNzIwNDkxMTgxMDEwNTAxMDMwODgwNTIwODExMTgxMDMwNzcwODgxMTQxMDYxMDYxMDQxMTgwNzYwOTcwNzgxMDIxMTcwODcxMTcwOTAwNDkxMjAwODMwOTcwODExMTkwNjE1NTgzMjExNScsIG51bGwsIDU3MCwgNjYwKRYCAgEPDxYEHgdUb29sVGlwBTDYqNix2KfbjCDZhdi02KfZh9iv2Ycg2YXYrNmI2LIg2YPZhNuM2YMg2YPZhtuM2K8eCEltYWdlVXJsBRQuLi9pbWFnZXMvbmFtYWQxLnBuZ2RkZKNoklpj2nLYRvOSS4bqFjFiMrOE" type="hidden">
+</div>
+
+<div>
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="11957924" type="hidden">
+</div>
+    <div id="div_nemad" style="cursor:pointer" onclick="PopupCenter('License.aspx?request=08807110510710208311606910010011309012006707012007408310306708710510005310407810306711906507505410207411511108910412005507708507907204911810105010308805208111810307708811410610610411807609707810211708711709004912008309708111906155832115', null, 570, 660)">
+        <img id="imgLogo" title="برای مشاهده مجوز كلیك كنید" src="symbol_data/namad1.png" style="border-width:0px;">
+    </div>
+    </form>
+
+
+</body></html>
